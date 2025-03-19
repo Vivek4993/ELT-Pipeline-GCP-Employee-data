@@ -3,19 +3,64 @@
   "name": "Employee",
   "namespace": "com.example.employee",
   "fields": [
-    {"name": "employee_id", "type": "int"},
-    {"name": "first_name", "type": "string"},
-    {"name": "last_name", "type": "string"},
-    {"name": "gender", "type": "string"},
-    {"name": "email", "type": "string"},
-    {"name": "phone_number", "type": "string"},
-    {"name": "address", "type": "string"},
-    {"name": "birthdate", "type": "string"},  // Or "long" for epoch milliseconds
-    {"name": "ssn", "type": ["string", "null"]}, // SSN can be null
-    {"name": "job_title", "type": "string"},
-    {"name": "department", "type": "string"},
-    {"name": "salary", "type": "int"},
-    {"name": "hire_date", "type": "string"}, // Or "long" for epoch milliseconds
-    {"name": "hashed_password", "type": "string"}
+    {
+      "name": "employee_id",
+      "type": "string"
+    },
+    {
+      "name": "first_name",
+      "type": "string"
+    },
+    {
+      "name": "last_name",
+      "type": "string"
+    },
+    {
+      "name": "gender",
+      "type": "string"
+    },
+    {
+      "name": "email",
+      "type": "string"
+    },
+    {
+      "name": "phone_number",
+      "type": "string"
+    },
+    {
+      "name": "address",
+      "type": "string"
+    },
+    {
+      "name": "birthdate",
+      "type": "string"
+    },
+    {
+      "name": "ssn",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "job_title",
+      "type": "string"
+    },
+    {
+      "name": "department",
+      "type": "string"
+    },
+    {
+      "name": "salary",
+      "type": "string"
+    },
+    {
+      "name": "hire_date",
+      "type": "string"
+    },
+    {
+      "name": "hashed_password",
+      "type": "string"
+    }
   ]
 }
